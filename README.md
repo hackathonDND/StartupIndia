@@ -11,3 +11,5 @@ Due to limited credentials of not being a government employee, program organiser
 ##### Github Profile: https://github.com/techfreakworm
 ### Vipul Goyal
 ##### Github Profile: https://github.com/vipul-goyal
+### Megha Goel
+#### Github Profile: https://github.com/meghagoel96
