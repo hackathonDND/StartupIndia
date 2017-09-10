@@ -15,3 +15,5 @@ Due to limited credentials of not being a government employee, program organiser
 ##### Github Profile: https://github.com/meghagoel96
 ### Aastha Goel
 ##### Github Profile: https://github.com/aasthagoel07
+### Aditya Kaushal
+##### Github Profile: https://github.com/adityakaushal5nov
