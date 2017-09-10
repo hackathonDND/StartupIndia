@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.gov.startupindia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme"
+        tools:replace="icon, label">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fragments.StartUpIndiaServicesParts"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".fragments.EventsAndNewsParts"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".fragments.Information_information"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".fragments.InitiativeByBanks"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".fragments.WebViewActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".fragments.FAQs"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".activity.SettingsActivity"
+            android:screenOrientation="sensorPortrait"></activity>
+        <activity android:name=".activity.ColorOptions"
+            android:screenOrientation="sensorPortrait"></activity>
+        <activity android:name=".activity.feedback"
+            android:screenOrientation="sensorPortrait"></activity>
+
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.SplashActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d121e56895884106e6f9f4ce3684b85a6b210a16"
+            />
+
+    </application>
+
+</manifest>

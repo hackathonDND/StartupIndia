@@ -1,0 +1,288 @@
+<resources>
+    <string name="app_name">Startup India</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="one">ONE</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="ten">TEN</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="title_activity_scrollable_tabs">Scrollable Tabs</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="btn_scrollable_tabs">Scrollable Tabs</string>
+    <string name="btn_icon_text_tabs">Icon &amp; Text Tabs</string>
+    <string name="btn_icon_tabs">Only Icon Tabs</string>
+    <string name="btn_pinned_top_tabs">Pinned To Top Tabs</string>
+    <string name="title_activity_icon_text_tabs">Icon and Text Tabs</string>
+    <string name="title_activity_icon_tabs">Icon Tabs</string>
+    <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_pinned_top_tabs">Pin Top Tabs</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+    <string name="sis">StartUp India Services</string>
+    <string name="ap">Action Plan</string>
+    <string name="info">Information</string>
+    <string name="oi">Other Initiatives</string>
+    <string name="ean">Events and News</string>
+    <string name="lad">Learning and Development</string>
+    <string name="lpma">Learning Program Mobile Apps</string>
+    <string name="connect">Connect</string>
+    <string name="cr">Company Registration</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <string name="startup_recognition"> Under the Startup India Action Plan, startups that meet the definition as prescribed under
+        the G.S.R notification 180(E), are eligible to apply for recognition under the program. The Startups have to provide support
+    documents, at the time of application. &#13;&#10;
+    Find out more how you can apply and get recognised here:</string>
+
+    <string name="startup_benefits"> Click the adjacent button to know about the startup benefits and many more details on
+    setting up a startup. </string>
+
+    <string name="incubator_recognition"> In order to avail the benefits announced in the Startup India Action Plan, an entity
+    would be required to be recognised as a Startup. To this effect, it would be required to submit an application along with
+    a relevant recommendation/ support/ endorsement letter. One of the options available to the registering entities is to
+    obtain a recommendation letter from any incubator recognised by Government of India. &#13;&#10;
+    &#13;&#10;
+    Incubator recognition is provided under the Startup India initiative to recognize and identify incubators that are
+    eligible to provide the said recommendation letter. This would enable Startups to access a wider base of incubator(s)
+    to obtain the same.</string>
+
+    <string name="advertisement"> Startup India is a flagship initiative of the Government of India, intended to build a
+    strong eco-system for nurturing innovation and Startups in the country. Under this initiative a Startup India Portal
+    has been set up which shall serve as a platform for facilitation of Startup recognition, access to information
+    related to incubators, mentors, Angel Funds, Venture Funds etc. &#13;&#10; &#13;&#10;
+    As a step ahead, we are looking forward to provide advertisement space for Startups on the Startup India portal.
+    If you are a Startup and wish to advertise your product/ services with us, send us the requisite information on the
+    format prescribed. </string>
+
+    <string name="startup_india_action_plan"> Action Plan is available in the form of pdf. Click the below button to get the whole
+    Action Plan (with detailed and well distinguished steps).</string>
+
+    <string name="status_report"> A detailed updated report on the current progress made on the Action Points, news, notifications,
+    amendments, challenges addressed, etc. on all aspects of the Startup India program is made available on a monthly
+    basis for ready reference.</string>
+
+    <string name="notification"> Click the below button for all the latest updates made by the Government in the form of notifications.
+    </string>
+
+    <string name="meeting_with_startup_founders"> With the agenda of creating a conductive Startup ecosystem, the Ministry
+    of Commerce and Industry, decided to reach out to all the stakeholders to discuss key concerns that need to be addressed
+    to strengthen the ecosystem.
+    As a step in this direction, the Ministry organised a meeting with around 30 Startups with the Hon\'ble Minister Ms. Nirmala
+    Sitharaman for their feedback and to discuss the key challenges faced by them. Some of the prominent names who were
+    part of the meeting are Paytm\'s Vice President Sudhanshu Gupta, Ola\'s Senior Director Anand Subramanium, Suraj Saharan
+    Co-founder of Delhivery, Nykaa.com\'s CFO Sachin Parikh, Abhiraj Bhal, Co-founder of UrbanClap, Anu Acharya, CEO of
+    Mampygenome, and Rivi Varghese, CEO and Co-founder of CustomerXPs.</string>
+
+    <string name="states_conferences"> Since the launch of the Startup India initiative in January 2016, considerable progress
+    has been made. The Government of India believes that involvement of the State Governments is crucial to achieve the
+    envisioned goals of the Startup India Initiative.
+    Department of Industrial Policy and Promotion (DIPP) organised a day-long Startup India States Conference on 23rd July, 2016 at
+        Taj Mahal Hotel, Mansingh Road, New Delhi. The aim of the conference was to provide a platform to all the
+    States to discuss the progress made and their good practices on the action points of Startup India Initiative. Besides
+    the states, all the stakeholders of the Startup ecosystem participated in the evnt to exchange their ideas to build
+    alliances.
+    Find out more about what the States and other stakeholders discussed at the conference (click button above).</string>
+
+    <string name="application">Click here for submitting your application for recognistion as a Startup</string>
+
+    <string name="formats1">Click here to view and download format of Letter of Funding of not less than 20 in equity from
+    Incubation Fund Private Equity Fund Accelerator/Angel Network </string>
+
+    <string name="formats2">Click here to view and download format of the Recommendation Letter from any incubator established
+    in a post-graduate college in India</string>
+
+    <string name="formats3">Click here to view and download format of the Recommendation Letter from any incubator recognized by
+    Government of India (GoI)</string>
+
+    <string name="formats4">Click here to view and download format of the Letter of Support from any incubator which is funded from
+    Government of India (GoI) or any State Government</string>
+
+    <string name="formats5">Click here to view and download format of the Recommendation Letter from Industry Association</string>
+
+    <string name="validation_of_startup_recognition">Validate Certificate Number / Entity Name</string>
+
+    <string name="entities">Click here to view Entities recognised by DIPP as Startup</string>
+
+    <string name="guideline"> Read the detailed guidelines on Recognition of Incubators by Government of India here </string>
+
+    <string name="incubator_application"> Submit your application for recognition as an incubator here </string>
+
+    <string name="validation_of_incubator_recognition"> Validate Incubator Recognition Certificate Number here  </string>
+
+    <string name="info3">List of Industry Associations/ Organizations for Recommendation Letter</string>
+
+    <string name="info4">List of Facilitators for Trademarks</string>
+
+    <string name="info5">List of Facilitators for Patients</string>
+
+    <string name="info6">List of SEBI Registered Funds</string>
+
+    <string name="info7">List of Central Government Clearances</string>
+
+    <string name="info8">List of State Government Clearances</string>
+
+    <string name="info9">Form for Financial Assistance For Organising Startup Events</string>
+
+    <string name="info10">Guidelines for Corporates to set up Incubators</string>
+
+    <string name="initiatives_by_banks"> Banks are an integral part of the Startup ecosystem. Various banks have launched
+    dedicated policies, schemes, units, loan initiatives and branches exclusively for Startups. Find out how you can avail
+    these benefits here: </string>
+
+    <string name="purpose">Purpose</string>
+    <string name="bt">See Details</string>
+    <string-array name="company">
+        <item>Company Name Approval</item>
+        <item>Company Name Registration</item>
+        <item>Appoint Director</item>
+    </string-array>
+    <string-array name="incorporation">
+        <item>One Person Company(OPC)  </item>
+        <item>Company(other than OPC)  </item>
+    </string-array>
+    <string name="aText">Startup India is a flagship initiative of the government of India,intended to build a Strong eco-system for nurturing innovation and Startups in the country.Under this initiative a Startup India Portal has been set up which shall serve as a platform for facilitation of Startup Recognition,access to information related to incubators,mentors,Angel Funds,Venture Funds etc.</string>
+    <string name="aText1">As a step ahead,we are looking forward to provide advertisement space for Startups on Startup India portal.If you are a Startup and wish to advertise your product/services with us ,send us the requisite information in the format prescribed below.</string>
+    <string name="fusionCharts">Fusion Charts</string>
+    <string name="FuseText">FusionCharts helps you create animated and interactive Flash charts for web and desktop applications</string>
+    <string name="Adstring">AdstringO Private Limited</string>
+    <string name="AdstringText">Worlds Fastest Mobile and Web Compression Software</string>
+    <string name="Unacademy">Unacademy</string>
+    <string name="UnacademyText">Yes we are.We are loud proud,ambitious,and greedy.We are Unacademy.And we will revolutionise Indian education.</string>
+    <string name="Pfizer">Pfizer IIT Delhi Innovation and IP Program</string>
+    <string name="PfizerText">The Pfizer IIT-Delhi Innovation and IP Program is an industry-academia collaboration that is supported by the "Startup India" program.An endeavor that will contribute to the realization of these important ambitions for India</string>
+    <string name="incorporate">Incorporation of</string>
+    <string name="agelimit">Age is more than 70</string>
+    <string name="age">AGE</string>
+    <string-array name="ages">
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+    <string name="dw">To Download Form</string>
+    <string name="download">Click Here</string>
+    <string name="instruction">To Download Instruction Kit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="twitter_hashtag_label">Twitter Hashtag</string>
+    <string name="twitter_hashtag_key">hashtag</string>
+    <string name="twitter_hashtag_default">#StartupIndia</string>
+    <string name="pref_color">Preffered Color</string>
+    <string name="color_default">#000000</string>
+    <string name="color_key">color</string>
+    <string name="color_label">Set Color (enter hex code)</string>
+
+    <string-array name="states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshdeep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttrakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="share">Share</string>
+    <string name="website">Website Policy</string>
+
+    <string name="disc">Disclaimer</string>
+    <string name="terms">Terms of Use</string>
+    <string name="help">Help</string>
+    <string-array name="feedback">
+        <item>Startup Recognition</item>
+        <item>Incubator Recognition</item>
+        <item>General Feedback</item>
+    </string-array>
+
+
+</resources>

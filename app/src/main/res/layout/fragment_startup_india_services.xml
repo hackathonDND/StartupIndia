@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="@color/cardColor">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardText"
+                    android:text="Startup Recognition"
+                    android:textSize="@dimen/headings" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/texts"
+                    android:text="@string/startup_recognition"
+                    android:textColor="@color/cardText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/next1"
+                    android:layout_marginTop="5dp"
+                    android:background="#ffffff"/>
+
+                <ImageView
+                    android:id="@+id/next1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next_icon"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="@color/cardColor">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardText"
+                    android:text="Startup Benefits"
+                    android:textSize="@dimen/headings" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv3"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/texts"
+                    android:text="@string/startup_benefits"
+                    android:textColor="@color/cardText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/next2"
+                    android:layout_marginTop="5dp"
+                    android:background="#ffffff"/>
+
+                <ImageView
+                    android:id="@+id/next2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next_icon"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="@color/cardColor">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardText"
+                    android:text="Incubator Recognition"
+                    android:textSize="@dimen/headings" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv5"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/texts"
+                    android:text="@string/incubator_recognition"
+                    android:textColor="@color/cardText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/next3"
+                    android:layout_marginTop="5dp"
+                    android:background="#ffffff"/>
+
+                <ImageView
+                    android:id="@+id/next3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next_icon"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="@color/cardColor">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardText"
+                    android:text="Advertisement"
+                    android:textSize="@dimen/headings" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv7"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/texts"
+                    android:text="@string/advertisement"
+                    android:textColor="@color/cardText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/next4"
+                    android:layout_marginTop="5dp"
+                    android:background="#ffffff"/>
+
+                <ImageView
+                    android:id="@+id/next4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next_icon"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
