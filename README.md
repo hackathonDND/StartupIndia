@@ -12,4 +12,6 @@ Due to limited credentials of not being a government employee, program organiser
 ### Vipul Goyal
 ##### Github Profile: https://github.com/vipul-goyal
 ### Megha Goel
-#### Github Profile: https://github.com/meghagoel96
+##### Github Profile: https://github.com/meghagoel96
+### Aastha Goel
+##### Github Profile: https://github.com/aasthagoel07
