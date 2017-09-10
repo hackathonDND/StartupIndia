@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/share" android:title="@string/share"
+        app:showAsAction="never"/>
+    <item android:id="@+id/web" android:title="@string/website"
+        app:showAsAction="never"/>
+    <item android:id="@+id/dis" android:title="@string/disc"
+        app:showAsAction="never"/>
+    <item android:id="@+id/terms" android:title="@string/terms"
+        app:showAsAction="never"/>
+    <item android:id="@+id/help" android:title="@string/help"
+        app:showAsAction="never"/>
+</menu>

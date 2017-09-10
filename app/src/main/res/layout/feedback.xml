@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.gov.startupindia.activity.feedback"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="@dimen/paddingVertical"
+        android:paddingLeft="@dimen/paddingHorizontal"
+        android:paddingRight="@dimen/paddingHorizontal"
+        android:paddingTop="@dimen/paddingVertical">
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:text="First Name"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/efname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="first name"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAST NAME" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/elname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="last name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATE" />
+
+        <Spinner
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/sstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/states" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CITY" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/ecity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="city"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/eaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="address"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/eemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/econtact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="contact"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEEDBACK TYPE" />
+
+        <Spinner
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/sfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/feedback"></Spinner>
+
+        <TextView
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMMENTS/QUERIES" />
+
+        <EditText
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/ecomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="comments"
+            android:inputType="text" />
+
+        <Button
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSubmit"
+            android:text="Submit" />
+
+        <Button
+            android:layout_marginTop="16dp"
+
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onReset"
+            android:text="Reset" />
+    </LinearLayout>
+</ScrollView>

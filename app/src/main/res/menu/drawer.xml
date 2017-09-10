@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_white"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/sis"
+            android:checked="false"
+            android:icon="@drawable/ic_services_white"
+            android:title="@string/sis" />
+
+        <item
+            android:id="@+id/cr"
+            android:checked="false"
+            android:icon="@drawable/ic_companyregistration_white"
+            android:title="@string/cr" />
+
+        <item
+            android:id="@+id/ap"
+            android:checked="false"
+            android:icon="@drawable/ic_actionplan_white"
+            android:title="@string/ap" />
+
+
+        <item
+            android:id="@+id/info"
+            android:checked="false"
+            android:icon="@drawable/ic_information_white"
+            android:title="@string/info" />
+        <item
+            android:id="@+id/oi"
+            android:checked="false"
+            android:icon="@drawable/ic_initiatives_white"
+            android:title="@string/oi" />
+        <item
+            android:id="@+id/ean"
+            android:checked="false"
+            android:icon="@drawable/ic_news_white"
+            android:title="@string/ean" />
+        <item
+            android:id="@+id/lad"
+            android:checked="false"
+            android:icon="@drawable/ic_learning_white"
+            android:title="@string/lad" />
+        <item
+            android:id="@+id/lpma"
+            android:checked="false"
+            android:icon="@drawable/ic_learningprogram_white"
+            android:title="@string/lpma" />
+        <item
+            android:id="@+id/connect"
+            android:checked="false"
+            android:icon="@drawable/ic_connect_white"
+            android:title="@string/connect" />
+
+    </group>
+</menu>

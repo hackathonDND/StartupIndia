@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "985838844381",
+    "firebase_url": "https://startupindia-55f3b.firebaseio.com",
+    "project_id": "startupindia-55f3b",
+    "storage_bucket": "startupindia-55f3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985838844381:android:16af01c6f417982e",
+        "android_client_info": {
+          "package_name": "in.gov.startupindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985838844381-0vn4lmupmpn8g586sobavk9eg70qj2e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfoTczx_QizuqwAlJHZIvRNS3fMejuS8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/twitter_hashtag_label"
+        android:key="@string/twitter_hashtag_key"
+        android:defaultValue="@string/twitter_hashtag_default"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <EditTextPreference
+        android:title="@string/color_label"
+        android:key="@string/color_key"
+        android:defaultValue="@string/color_default"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+</PreferenceScreen>
